@@ -8,7 +8,7 @@ const getResult = (resultCell) => {
       winningCombinaton = winningCombinations[i]
     }
   }
-  winningCombinaton ? result = 'win' : result = null
+  winningCombinaton ? result = true : result = false
   return result
 }
 

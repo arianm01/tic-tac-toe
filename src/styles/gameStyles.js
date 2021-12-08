@@ -31,7 +31,23 @@ const styles = theme => ({
     width: 100,
     height: 100,
     marginTop: 30,
-  }
+  },
+  gameContain:{
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "column",
+    height: "fit-content",
+    fontFamily: "Helvetica",
+  },
+  result: {
+    fontSize: 24,
+    textTransform: "uppercase",
+  },
+  userBlock: {
+    marginBottom: 50,
+    textAlign: "center",
+  },
 })
 
 export default styles
